@@ -25,7 +25,7 @@ end
 
 def sorted_matrix
 grocery_store_sorted = [
-  CONVENTIONAL_PRODUCE.sort!
+  CONVENTIONAL_PRODUCE.sort!,
   ORGANIC_PRODUCE.sort!
   ]
 end
