@@ -31,7 +31,7 @@ grocery_store_sorted = [
 end
 
 def matrix_lookup(matrix, row, column)
-matrix[column][row]
+matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
